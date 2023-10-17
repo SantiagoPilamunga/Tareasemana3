@@ -11,10 +11,6 @@ int main()
         suma+=num%10;
         num=trunc(num/10);
     }
-    printf("SSDSAS %d",suma);
-    
-    
-    
     return 0;
     
 }
