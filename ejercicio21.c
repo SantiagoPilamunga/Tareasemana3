@@ -11,6 +11,7 @@ int main()
         suma+=num%10;
         num=trunc(num/10);
     }
+    printf("La suma de los digitos del numero es: %d",suma);
     return 0;
     
 }
