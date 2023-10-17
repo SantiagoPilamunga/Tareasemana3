@@ -14,6 +14,7 @@ int main()
         num2=trunc(num/10);
         if (num1>num2)
         {
+            printf("Los enteros entre %d y %d son: \n",num2,num1);
             while (num2<num1-1)
             {
                 num2+=1;
@@ -23,6 +24,7 @@ int main()
             
         }if (num2>num1)
         {
+            printf("Los enteros entre %d y %d son: \n",num2,num1);
             while (num1<num2-1)
             {
                 num2-=1;
@@ -30,7 +32,7 @@ int main()
                 
             }
         }
-
+        
     }else{
         printf("El ejercicio no se puede realizar");
     }
