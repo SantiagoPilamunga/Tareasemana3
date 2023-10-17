@@ -12,7 +12,18 @@ int main()
 
         num1=num%10;
         num2=trunc(num/10);
-        printf("%d %d",num1,num2);
+        if (num1>num2)
+        {
+            while (num2<num1-1)
+            {
+                num2+=1;
+                printf(" %d ",num2);
+                
+            }
+            
+        }
+        
+        
 
     }else{
         printf("El ejercicio no se puede realizar");
