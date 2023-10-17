@@ -15,6 +15,7 @@ int main()
             sumatotal+=suma;
         }
     }
-    
+    sumatotal+=1; /* se suma el 1 porque se repite dos veces 1 y en sumatotal solo esta una vez*/
+    printf("El numero resultante de sumar la serie de numeros de fibonacci de 0 a 100 es: %d ",sumatotal);
     return 0;
 }
