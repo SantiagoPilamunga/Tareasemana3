@@ -21,9 +21,15 @@ int main()
                 
             }
             
+        }if (num2>num1)
+        {
+            while (num1<num2-1)
+            {
+                num2-=1;
+                printf(" %d ",num2);
+                
+            }
         }
-        
-        
 
     }else{
         printf("El ejercicio no se puede realizar");
